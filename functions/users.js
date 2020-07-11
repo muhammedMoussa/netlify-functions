@@ -1,4 +1,4 @@
-import faunadb from 'faunadb'
+const faunadb = require('faunadb')
 
 const q = faunadb.query
 const client = new faunadb.Client({
@@ -20,6 +20,7 @@ exports.handler = (event, context, callback) => {
         })
       })
     }).catch((error) => {
+      console.log("ERROR WHEN GET DATA")
       console.log("error", error)
       return callback(null, {
         statusCode: 400,
