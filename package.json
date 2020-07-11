@@ -10,7 +10,8 @@
     "faunadb": "^2.13.1"
   },
   "devDependencies": {
-    "netlify-cli": "^2.19.0"
+    "netlify-cli": "^2.19.0",
+    "netlify-lambda": "^1.6.3"
   },
   "repository": {
     "type": "git",
