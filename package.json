@@ -1,0 +1,25 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "serverless  playing around with netlify functions...",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "node ./scripts/bootstrap-fauna-database.js"
+  },
+  "dependencies": {
+    "faunadb": "^2.13.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedMoussa/netlify-functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammedMoussa/netlify-functions/issues"
+  },
+  "homepage": "https://github.com/muhammedMoussa/netlify-functions#readme"
+}
