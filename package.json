@@ -4,7 +4,8 @@
   "description": "serverless  playing around with netlify functions...",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "node ./scripts/bootstrap-fauna-database.js"
+    "bootstrap": "node ./scripts/bootstrap-fauna-database.js",
+    "build": "npm install"
   },
   "dependencies": {
     "faunadb": "^2.13.1"
