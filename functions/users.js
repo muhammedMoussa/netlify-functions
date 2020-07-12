@@ -1,4 +1,5 @@
-import faunadb from 'faunadb' /* Import faunaDB sdk */
+// import faunadb from 'faunadb' /* Import faunaDB sdk */
+const faunadb = require("faunadb");
 
 const q = faunadb.query
 const client = new faunadb.Client({
